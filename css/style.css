@@ -1,0 +1,758 @@
+body{
+    font-family: 'Montserrat', sans-serif; 
+  /*   overflow-x: hidden; */
+}
+
+/* navigation section start here------------------------ */
+
+
+
+.navbar-nav
+{
+    gap: 30px;
+    margin-left: auto;
+   
+}
+.navigation-section
+{
+   
+    background: linear-gradient(to right,rgb(10, 10, 10),rgba(0, 83, 8, 0.3)),url('../img/library.jpg');
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.navbar-image
+{
+    width: 80px;
+    height: auto;
+}
+
+.nav-link
+{
+    font-size: 17PX!important;
+    letter-spacing: 0.5PX!important; 
+    color: rgb(255, 255, 255)!important;
+    font-weight: 500!important;
+    
+}
+.nav-link::after
+{
+    content: "";
+    bottom: -2px;
+    height: 2px;
+    width: 0%;
+    background: #F94217;
+    transition:  0.3s ease-in-out;
+    display: block;
+
+}
+.nav-link:hover::after
+{
+    content: "";
+    bottom: -2px;
+    height: 2px;
+    width: 100%;
+    background: #F94217;
+    display: block;
+
+}
+
+.nav-link1
+{
+    font-size: 17PX!important;
+    letter-spacing: 0.5PX!important;
+    color: rgb(255, 255, 255)!important;
+    text-decoration: none;
+    background-color: #F94217;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+} 
+
+    
+.nav-link1:hover
+{
+   
+    background-color: #0E1F39;
+    transition: .3s ease-in-out;
+ 
+}
+
+/* content section start here---------------------- */
+.content-section
+{
+    padding-left: 110px!important;
+    padding-right: 90px!important;
+    margin-top: 130px;
+    color: white;
+}
+.first-content-text
+{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    
+}
+.second-content-text
+{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.click-away
+{
+    background-color: #F94217;
+    
+}
+.third-content-text
+{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+   
+}
+.fourth-content
+{
+    display: flex;
+   gap: 10px;
+   
+}
+.fourth-content-icon
+{
+    color: white;
+    font-size: 35px;
+
+}
+.fourth-content-icon:hover
+{
+   
+    color: #F94217;
+
+}
+
+.fourth-content1
+{
+    display: flex;
+    justify-content: center;
+}
+.fourth-content2
+{
+    display: flex;
+    align-items: center;
+}
+.fourth-content-text
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: -10px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+}
+
+.fourth-content-text:hover
+{
+    color: white;
+    
+}
+/* content section end here---------------------- */
+/* navigation section end here------------------------ */
+
+
+
+/* cycling benefit start here--------------------------------------------*/
+
+/* benefit section1 animate----------------- */
+.about-us-section1
+{
+    opacity: 0;
+    
+}
+.about-us-section1.animate__animated
+{
+    opacity: 1;
+    
+}
+
+
+
+
+
+/* benefit section2 animate----------------- */
+.about-us-section2
+{
+    opacity: 0;
+    
+}
+.about-us-section2.animate__animated
+{
+    opacity: 1;
+    
+}
+
+
+
+
+/* benefit section3 animate----------------- */
+.about-us-section3
+{
+    opacity: 0;
+    
+}
+.about-us-section3.animate__animated
+{
+    opacity: 1;
+    
+}
+
+
+.about-us
+{
+    background-color: #0E1F39;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+   
+}
+.about-us-heading
+{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.cycling-benefit-heading11
+{
+    font-size: 20px;
+    letter-spacing: o.5px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+}
+.about-us-heading22
+{
+    font-size: 48px;
+    letter-spacing: o.5px;
+    font-weight: 400;
+    color: white;
+}
+
+.about-logo-name
+{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+    /* align-items: center; */
+}
+.about-logos
+{
+    font-size: 40px;
+    color: #F94217;
+    
+}
+.about-logos:hover
+{
+   transform: scale(1.6);
+   transition: .5s ease-in-out;
+}
+
+.about-all-name
+{
+    
+    font-size: 24px;
+    color: white;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+   
+}
+.about-all-name2
+{
+    font-size: 14px;
+    color: rgb(238, 238, 238);
+    letter-spacing: 0.5px;
+}
+
+.books
+{
+    width: 220px;
+    height: auto;
+}
+/* about us end here------------------------------------- */
+
+
+
+
+/* passion start here------------------ */
+
+.passion
+{
+    background-color:#F94217;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/* passione animation section start here------------------------ */
+.passion-main-image
+{
+    opacity: 0;
+}
+
+.passion-main-image.animate__animated
+{
+    opacity: 1;
+}
+
+
+
+
+.passion-main-content
+{
+    color: white;
+    opacity: 0;
+    
+}
+.passion-main-content.animate__animated
+{
+    opacity: 1;
+}
+/* passione animation section end here------------------------ */
+
+
+.passion-content
+{
+   display: flex;
+   align-items: center;
+   
+}
+.passion-image
+{
+    border: 15px solid white;
+    width: 500px;
+    height: auto;
+}
+
+.passione-all-content
+{
+    margin-bottom: 35px;
+}
+.p-content1
+{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.p-content2
+{
+    font-size: 48px;
+    letter-spacing: o.5px;
+    font-weight: 400;
+    color: white;
+}
+.p-content3
+{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    
+}
+
+.passion-button
+{
+    
+    color: rgb(255, 255, 255);
+    background-color: #0E1F39;
+    border-radius: 25px;
+    padding: 10px 25px 10px 25px;
+    border: none;
+}
+.passion-button:hover
+{
+    
+    color: rgb(38, 38, 38);
+    background-color: #ffffff;
+    transition: .3s ease-in-out;
+}
+
+/* passion end here------------------ */
+
+
+
+
+
+/* our popuarity start here------------------ */
+.popularity
+{
+ background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url("../img/library.jpg");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+ background-attachment: fixed;
+ padding-top: 70px;
+ padding-bottom: 70px;
+ 
+}
+
+
+.counter-icon1
+{
+  font-size: 32px;
+  color: #F94217;
+
+}
+.demo1
+{
+  font-size: 35px;
+  font-weight: 700;
+}
+.demo2
+{
+  font-size: 35px;
+  font-weight: 700;
+}
+.demo3
+{
+  font-size: 35px;
+  font-weight: 700;
+}
+.demo4
+{
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.clint-feeling
+{
+  font-size: 20px;
+
+}
+/* our popurarity end here------------------ */
+
+
+
+/* gallery start here------------------ */
+.gallery-heading
+{
+    font-size: 48px;
+    letter-spacing: o.5px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+.books-gallery
+{
+    background-color:#ffffff;
+   
+    padding-top: 130px;
+    padding-bottom: 130px; 
+
+}
+.main-gallery1
+{
+    display: flex;    
+    margin-bottom: 20px;
+    gap: 20px;
+    flex-direction: row; 
+    justify-content: center; 
+    
+
+}
+.main-gallery2
+{
+    display: flex;    
+    margin-bottom: 20px;
+    gap: 20px;
+    flex-direction: row;  
+    justify-content: center; 
+   
+ 
+
+}
+.main-gallery3
+{
+    display: flex;
+    flex-direction: row;    
+    margin-bottom: 20px;
+    gap: 20px;
+    justify-content: center; 
+
+}
+
+
+/* animate gallery image start here-------------------- */
+.gellery-img1
+{
+    width: 150px;
+    height: auto;
+    opacity: 0;
+}
+.gellery-img1.animate__animated
+{
+    opacity: 1;
+}
+
+/* animate gallery image end here-------------------- */
+
+
+.main-gallery-buttons
+{
+    gap: 20px!important;
+}
+
+.main-gallery-buttons-all
+{
+    
+    border-radius: 15px;
+    border: none;
+    background-color: #F94217;
+    padding: 5px 10px 5px 10px;
+    color: #ffffff;
+}
+
+/* gallery end here----------------- */
+
+
+
+
+/* clint------start here--------------------- */
+.clint-comment
+{
+  
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url("../img/comment.jpg");  
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.clint-heading
+{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: o.5px;
+    font-weight: 400;
+    
+}
+.clint-say
+{
+  font-size: 17px; 
+  color: rgb(129, 129, 129);
+ 
+}
+
+.slider-content
+{
+  font-size: 20px;
+}
+
+.clint-main-card
+{
+    background-color: transparent!important;
+    width: 100%!important;
+    height: 400px!important;
+    border: none!important;
+    
+}
+
+
+.card-body
+{
+  background-color: transparent;
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+} 
+
+.clint-feature
+{
+  gap: 13px;
+  
+}
+
+.card
+{
+  background-color: rgb(7, 7, 7);
+  
+}
+
+/* clint---end here------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+/* get in touch------------ */
+
+.get-in-touch
+{
+    
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-bottom: 130px;
+    padding-top: 130px;
+   
+
+}
+
+.get-touch
+{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.contact form
+{
+    text-align: center;
+}
+
+
+/* name animation section start here------------ */
+.your-name
+{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 400px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(174, 174, 174);
+    outline: none;
+    opacity: 0;
+}
+.your-name.animate__animated
+{
+    opacity: 1;
+}
+
+
+/* mail animation section start here------------ */
+.your-mail
+{
+  
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 400px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(174, 174, 174);
+     outline: none;
+    opacity: 0;
+
+
+}
+.your-mail.animate__animated
+{
+    opacity: 1;
+}
+
+
+
+
+/* number animation section start here------------ */
+.your-number
+{
+  
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 400px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid rgb(174, 174, 174);
+     outline: none;
+    opacity: 0;
+
+
+}
+.your-number.animate__animated
+{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+::placeholder
+{
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.submit
+{
+    border-radius: 30px;
+    background-color: #F94217;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    color: #ffffff;
+    font-size: 20px;
+
+}
+.submit:hover
+{
+   background-color: #0E1F39;
+   transition: .3s ease-in-out;
+
+}
+.sub-info
+{
+    color: white;
+}
+
+
+/* main footer-------------------- */
+.main-footer
+{
+   
+    padding-bottom: 70px;
+    padding-top: 70px;
+    background-color: #0E1F39;
+}
+.footer-comment
+{
+    color: white;
+    font-size: 15px;
+    
+}
+.footer-icons
+{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.footer-icons:hover
+{
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: #F94217;
+    transition: .4s ease-in-out;
+}
